@@ -1,0 +1,35 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Original icon package
+  cupertino_icons: ^1.0.8
+
+  # Packages needed for the app
+  flutter_tts: ^4.0.2
+  local_auth: ^2.2.0
+  camera: ^0.11.0+1
+  google_mlkit_object_detection: ^0.15.0
+  speech_to_text: ^7.3.0
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.1
+  geolocator: ^10.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+
